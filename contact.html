@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact - The Trip Makers</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="glass">
   <h1>The Trip Makers</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="packages.html">Packages</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 </header>
 
 <section class="section">
-  <h2>Contact Us</h2>
+  <h2>Plan Your Trip</h2>
 
-  <input type="text" placeholder="Your Name" id="name">
-  <input type="email" placeholder="Email" id="email">
-  <textarea placeholder="Message" id="message"></textarea>
-
-  <button onclick="submitForm()">Send</button>
+  <div class="form-box">
+    <input type="text" placeholder="Your Name" id="name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Your Travel Plan"></textarea>
+    <button onclick="submitForm()">Send Enquiry</button>
+  </div>
 </section>
-
-<footer>
-  <p>© 2026 The Trip Makers</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
