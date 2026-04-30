@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Packages - The Trip Makers</title>
+  <title>Packages</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="glass">
   <h1>The Trip Makers</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="packages.html">Packages</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 </header>
 
 <section class="section">
-  <h2>Tour Packages</h2>
+  <h2>Best Selling Packages</h2>
 
   <div class="cards">
 
-    <div class="card">
+    <div class="card hover">
+      <img src="https://source.unsplash.com/400x300/?phuket">
       <h3>Thailand Tour</h3>
-      <p>5 Days / 4 Nights</p>
-      <p>₹35,999</p>
-      <button onclick="enquire()">Enquire</button>
+      <p>5D / 4N</p>
+      <p class="price">₹35,999</p>
+      <button onclick="enquire()">Book Now</button>
     </div>
 
-    <div class="card">
-      <h3>Dubai Tour</h3>
-      <p>4 Days / 3 Nights</p>
-      <p>₹45,000</p>
-      <button onclick="enquire()">Enquire</button>
+    <div class="card hover">
+      <img src="https://source.unsplash.com/400x300/?dubai,city">
+      <h3>Dubai Luxury</h3>
+      <p>4D / 3N</p>
+      <p class="price">₹45,000</p>
+      <button onclick="enquire()">Book Now</button>
     </div>
 
   </div>
 </section>
-
-<footer>
-  <p>© 2026 The Trip Makers</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
